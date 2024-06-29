@@ -167,7 +167,6 @@ h3 {
     .navbar .container{
         padding: 0px, 200px
     }
-    }
     #home .container {
         min-width: 575.98;
         margin: 0px 15px;
@@ -182,6 +181,7 @@ h3 {
         padding-top: 10px;
        
     }
+}
     
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -201,7 +201,6 @@ h3 {
     }
     #home {
         height: auto;
-        padding-top: 71px;
     }
     footer {
         font-size: 0.7em;
@@ -230,12 +229,18 @@ h3 {
     #recursos .rotacionar {
         margin: 250px 0px 0px 50px
     }
+    #home {
+        height: auto;
+    }
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
     h1{
         font-size: 5em;
+    }
+    #home {
+        height: auto;
     }
 }
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -247,6 +252,9 @@ h3 {
         min-width: 575.98;
         max-width: 100%;
         margin: 0px 0px;
+    }
+    #home {
+        height: auto;
     }
 }
 
