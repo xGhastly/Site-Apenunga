@@ -278,3 +278,24 @@ h3 {
 #home .col-md-12{
     padding: 0;
 }
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 150px;
+    padding: 0;  
+    padding-top: 16px;
+    position: absolute;
+    z-index: 10px;
+    display: none;
+}
+
+ul li ul div.drop-text {
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
